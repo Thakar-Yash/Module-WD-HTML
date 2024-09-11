@@ -1,0 +1,84 @@
+<!-- Create employee registration webpage using HTML form objects -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1 style="color: brown;" align="center">Employee Registration Form</h1>
+    <form action="" >
+        <table border="0" cellspacing="5px" align="center">
+            <tr>
+                <td></td>
+                <td>
+                    <input type="radio" name="gender" value="mr.">Mr.
+                    <input type="radio" name="gender" value="mrs.">Mrs.
+                    <input type="radio" name="gender" value="ms.">Ms.
+                </td>
+            </tr>
+            <tr>
+                <td><label for="fname">First Name</label></td>
+                <td><input type="text" name="fname" placeholder="First Name"></td>
+            </tr>
+            <tr>
+                <td><label for="lname">Last Name</label></td>
+                <td><input type="text" name="lname" placeholder="Last Name"></td>
+            </tr>
+            <tr>
+                <td><label for="email1">Mail Address1</label></td>
+                <td><input type="email" name="email1"></td>
+            </tr>
+            <tr>
+                <td><label for="email2">Mail Address2</label></td>
+                <td><input type="email" name="email2"></td>
+            </tr>
+            <tr>
+                <td><label for="city">City</label></td>
+                <td><input type="text" name="city"></td>
+            </tr>
+            <tr>
+                <td><label for="state">State</label></td>
+                <td><select name="state">
+                    <option value="Gujrat">Gujrat</option>
+                    <option value="Maharastra">Maharastra</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="more" disabled="disabled">More</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="zip">Zip</label></td>
+                <td><input type="text" name="zip"></td>
+            </tr>
+            <tr>
+                <td><label for="photo">Upload Photo</label></td>
+                <td><input type="file"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="mno">Mobile</label></td>
+                <td><input type="number" placeholder="+91"></td>
+            </tr>
+            <tr>
+                <td><label for="language">Language Known</label></td>
+                <td><input type="checkbox" name="Gujrati" value="Gujrati">Gujrati <br>
+                    <input type="checkbox" name="Hindi" value="Hindi">Hindi <br>
+                    <input type="checkbox" name="English" value="English">English <br>
+                    <input type="checkbox" name="Marathi" value="Marathi">Marathi</td>
+            </tr>
+            <tr>
+                <td><label for="info">Additional Information</label></td>
+                <td><textarea name="info" placeholder="Optional"></textarea></td>
+            </tr>
+            <tr align="center">
+                <td colspan="2"><input type="submit">
+                <input type="reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
